@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "macaco",
+	"version": "${version}",
+	"name": "Macaco Vermelho",
+	"description": "Adds the Macaco Vermelho, a tameable red monkey pet that follows its owner and can be ordered to sit.",
+	"authors": [
+		"ander"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.macaco.MacacoMod"
+		],
+		"client": [
+			"com.macaco.client.MacacoClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.0",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
