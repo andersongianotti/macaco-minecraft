@@ -35,7 +35,7 @@ public class MacacoMod implements ModInitializer {
 			BuiltInRegistries.ENTITY_TYPE,
 			id("macaco_vermelho"),
 			EntityType.Builder.of(MacacoVermelhoEntity::new, MobCategory.CREATURE)
-					.sized(0.6F, 1.0F)
+					.sized(0.5F, 1.3F)
 					.build(ResourceKey.create(Registries.ENTITY_TYPE, id("macaco_vermelho")))
 	);
 
